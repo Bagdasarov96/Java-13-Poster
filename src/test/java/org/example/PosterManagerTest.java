@@ -91,7 +91,7 @@ public class PosterManagerTest {
         String film11 = "Film11";
 
 
-        FilmManager manager = new FilmManager(10);
+        FilmManager manager = new FilmManager();
         manager.addFilm(film1);
         manager.addFilm(film2);
         manager.addFilm(film3);
